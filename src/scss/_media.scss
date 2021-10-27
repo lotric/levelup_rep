@@ -1,0 +1,183 @@
+@media (max-width: 1200px) {
+    .promo {
+        min-height: 630px;
+        .promo_main {
+            padding: 0 100px;
+            &_middle {
+                .promo_img {
+                    img {
+                        width: 240px;
+                    }
+                }
+                ul {
+                    font-size: 14px;
+                }
+            }
+            button {
+                width: 200px;
+                left: 366px;
+            }
+        }
+        video {
+            width: auto;
+        }
+        .container {
+            padding: 40px 0;
+        }
+    }
+    .about {
+        .items {
+            .first_items {
+                .item {
+                    text-align: center;
+                    img {
+                        width: 120px;
+                        height: 120px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .second_items {
+                .item {
+                    text-align: center;
+                    img {
+                        width: 120px;
+                        height: 120px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .container {
+            button {
+                width: 200px;
+                left: 41%;
+            }
+        }
+    }
+    .carousel {
+        .carousel__inner {
+            width: 500px;
+            img {
+                width: 500px;
+                height: 350px;
+            }
+        }
+    }
+    .promo_product {
+        .promo_main {
+            width: 950px;
+            margin: auto;
+            img {
+                width: 450px;
+                height: 550px;
+            }
+        }
+        .container {
+            ul {
+                width: 950px;
+                margin: 30px auto;
+                li {
+                    margin-right: 10px;
+                }
+            }
+            button {
+                width: 200px;
+                left: 460px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .promo {
+        .promo_main {
+            &_middle {
+                .promo_img {
+                    img {
+                        width: 180px;
+                        margin-top: 68px;
+                    }
+                }
+            }
+            button {
+                left: 276px;
+            }
+        }
+    }
+    .about {
+        .container {
+            .items {
+                .item {
+                    width: 170px;
+                } 
+                .product {
+                    img {
+                        width: 200px;
+                    }
+                }   
+            }
+            button {
+                left: 39%;
+            }
+        }
+    }
+    .carousel {
+        .carousel__inner {
+            img {
+                height: 300px;
+            }
+            .review {
+                font-size: 20px;
+            }
+        }
+    }
+    .promo_product {
+        .promo_main {
+            img {
+                width: 300px;
+                height: 380px;
+                margin-left: 70px;
+            }
+            p {
+                width: 500px;
+            }
+        }
+        .container {
+            ul {
+                width: 800px;
+                li {
+                    font-size: 15px;
+                }
+            }
+            button {
+                left: 360px;
+            }
+        }
+    }
+    .order {
+        .container {
+            .timer {
+                font-size: 30px;
+            }
+            .product_main {
+                .product_price {
+                    img {
+                        margin-left: 50px;
+                    }
+                    .price_new {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
