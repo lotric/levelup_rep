@@ -181,3 +181,96 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .promo {
+        .container {
+            .promo_main_middle {
+                .promo_img {
+                    img {
+                        margin-top: 180px;
+                    }
+                }
+            }
+            .promo_main {
+                button {
+                    left: 160px;
+                }
+            }
+        }
+    }
+    .about {
+        .container {
+            .items {
+                .item {
+                    width: 150px;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+                .product {
+                    img {
+                        width: 180px;
+                    }
+                }
+            }
+            button {
+                left: 35%;
+            }
+        }
+    }
+    .promo_product {
+        .container {
+            .promo_main {
+                display: block;
+                img {
+                    margin-left: 200px;
+                }
+                p {
+                    width: 500px;
+                    margin-left: 100px;
+                    text-align: justify;
+                }
+            }
+            ul {
+                display: block;
+                width: 500px;
+                padding-left: 20px;
+            }
+            button {
+                left: 240px;
+            }
+        }
+    }
+    .order {
+        .container {
+            .order_header {
+                font-size: 34px;
+                margin-bottom: 20px;
+            }
+            .timer {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .product_main {
+                .product_price {
+                    margin-left: 94px;
+                    img {
+                        width: 150px;
+                    }
+                    .price_old {
+                        margin-top: 16px;
+                        margin-left: 70px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .feed_form {
+            margin-top: 40px;
+            button {
+                margin-top: 20px;
+            }
+        }
+    }
+}
